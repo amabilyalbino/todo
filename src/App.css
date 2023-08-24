@@ -1,0 +1,108 @@
+body {
+  margin: 0px;
+}
+
+.main {
+  font-family: Arial;
+  background-color: #be9fbc;
+  color: #333;
+  background-image: url("./img/imagem.png");
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+.app { 
+  margin-top: 5%;
+  height: 60%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 10px; 
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(67, 66, 66);
+  color: #ffffff;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  opacity: .8;
+  transition: .3s;
+  
+}
+
+button:hover {
+  opacity: 1;
+
+}
+
+.todo-list {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgb(182, 26, 26);
+  overflow-y: scroll;
+}
+
+.todo {
+  background-color: rgb(234, 232, 232);
+  box-shadow: 0 0 10px rgba(164, 164, 164, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+
+}
+
+
+.buttons {
+  display: flex;
+   align-items: center;
+}
+.complete {
+  background-color: #5cb85c;
+  height: 25px;
+  
+}
+
+.remove {
+  background-color: #db4949;
+  height: 25px;
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+}
+
+input, select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  width: 100%;
+}
